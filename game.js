@@ -108,7 +108,7 @@ const textNodes = [
   },
   {
     id: 6,
-    text: "You go online and apply for several jobs that seem to fit to your dev knight skills. You go to bed full of hopes and the day after you receive a positive reply from a company! You book an appointment for the first interview! Lets go! During the interview, you meet the Tech recruiter, few knight developers and go through discussions about your passed quests and achievements. At the end of the day, you reflect about your first interview: It went well!! You wait few days, and receive an carrier pigeon informing you that unfortunately they won't proceed further with your application. The recruiter suggests to have a call in order to give you a feedback.",
+    text: "You go online and apply for several jobs that seem to fit to your dev knight skills. You go to bed full of hopes and the day after you receive a positive reply from a company! You book an appointment for the first interview! Lets go! During the interview, you meet the Tech recruiter, few knight developers and go through discussions about your passed quests and achievements. At the end of the day, you reflect about your first interview: It went well!! You wait few days, and receive a carrier pigeon informing you that unfortunately they won't proceed further with your holy application. The recruiter suggests to have a call in order to give you a feedback.",
     options: [
       {
         text: 'Yes, please!',
@@ -262,7 +262,7 @@ const textNodes = [
   },
   {
     id: 17,
-    text: 'You start working on this issue, console log, debugging, talking to your rubber duck, hoping it will help you to solve this. After a trip to Stackoverflow and more documentation. You finally see the error! The famous missing semicolon!',
+    text: 'You start working on this issue, console log, debugging, talking to your rubber duck, hoping it will help you to solve this. After a trip to Stackoverflow and more documentation, you finally see the error! The famous missing semicolon!',
     options: [
       {
         text: 'Hurray!',
@@ -272,10 +272,10 @@ const textNodes = [
   },
   {
     id: 20,
-    text: 'No time to waste! You start your journey to improve on coding challenges',
+    text: 'No time to waste! You start your journey to improve on coding challenges. Hackerrank, Code Wars, coderbyte, nothing can stop you! You are getting so good at it, you became a celebrity on the coding platform!',
     options: [
       {
-        text: 'Done!',
+        text: 'Much wow!',
 
         nextText: 22
       }
@@ -302,12 +302,12 @@ const textNodes = [
       {
         text: 'Take the code challenge first',
         requiredState: (currentState) => currentState.spaghettiSolved,
-        nextText: 26
+        nextText: 27
       },
       {
-        text: 'Take the code challenge first',
+        text: 'Show your portfolio',
         requiredState: (currentState) => currentState.bugSolved,
-        nextText: 27
+        nextText: 26
       }
     ]
   },
@@ -353,7 +353,7 @@ const textNodes = [
   },
   {
     id: 27,
-    text: "Right before he finishes his sentence, you tell him with conviction: 'I'm ready for the assignment. Give me anything, I'm prepared to fight everything!' The recruiter looks pleasantly surprised. 'Perfect then, let's do it!' He sends you the task and sits next to you. The instructions remind you of a challenge you did a couple days ago. It's going to be a piece of cake! You process carefully and clearly through the issues, explain each step you are working on. You even finish on time! Once the interview is over, you hear the recruiter talking to his colleague: 'I think we've found our next fellow'. CONGRATULATIONS!!",
+    text: "Right before he finishes his sentence, you tell him with conviction: 'Give me anything, I'm ready to fight!' The recruiter looks pleasantly surprised. 'Perfect then, let's do it!' He sends you the task and sits next to you. The instructions remind you of a challenge you did a couple days ago. It's going to be a piece of cake! You process carefully and clearly through the issues, explain each step you are working on. You even finish on time! Once the interview is over, you hear the recruiter talking to his colleague: 'I think we've found our next fellow'. CONGRATULATIONS!!",
     options: [
       {
         text: 'Restart!',
