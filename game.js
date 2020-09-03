@@ -51,7 +51,7 @@ const textNodes = [
       {
         text: 'Apply for a job',
         setState: { mentor: false },
-        nextText: 3,
+        nextText: 6,
       }
     ]
   },
