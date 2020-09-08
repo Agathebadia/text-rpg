@@ -8,20 +8,31 @@
   <title>Dev Knight Adventure</title>
 </head>
 <body>
+  <nav role="navigation" class="navbar">
+    <div class="navbar-items">
+      <a class="btn btn-navbar" href="index.html">Start</a>
+      <span role="timer" id="time"></span>
+    </div>
+  </nav>
   <div class="container">
-    <div class="header">
-      <img class="icon" src="exe.gif">
+    <h1 class="header">
+      <img class="icon" src="exe.gif" role="img" alt="icon of a window">
       Dev Knight Adventure
-    </div>
-    <div class="content">
-      <div id="text">TEXT</div>
+    </h1>
+    <main class="content">
+      <div id="text" role="text">TEXT</div>
       <div id="option-buttons" class="btn-grid">
-        <button class="btn">Option 1</button>
-        <button class="btn">Option 2</button>
-        <button class="btn">Option 3</button>
-        <button class="btn">Option 4</button>
+        <button class="btn" role="option">Option 1</button>
+        <button class="btn" role="option">Option 2</button>
+        <button class="btn" role="option">Option 3</button>
+        <button class="btn" role="option">Option 4</button>
       </div>
-    </div>
+    </main>
   </div>
+  <footer>
+    <span>
+      Created by <a href="https://github.com/Agathebadia" target="_blank">Agathe Badia</a>
+    </span>
+  </footer>
 </body>
 </html>

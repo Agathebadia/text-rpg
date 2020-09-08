@@ -1,7 +1,25 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
+const timeElement = document.getElementById('time')
 
 let state = {}
+
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function startTime() {
+  const today = new Date();
+  const hours = today.getHours();
+  const minutes = today.getMinutes();
+  h = checkTime(hours);
+  m = checkTime(minutes);
+  timeElement.innerHTML = h + ":" + m;
+}
+startTime();
 
 function startGame() {
   state = {}

@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 0;
+  font-family: Tahoma, Verdana;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -13,13 +13,32 @@ body {
   background-color: #008080;
 }
 
+.navbar {
+  height: 38px;
+  background: #C0C0C0;
+  border-bottom: 2px solid #FCFCFC;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+}
+
 .header {
-  font-family: Tahoma, Verdana;
   margin: 2px 2px 0;
   padding: 1px 2px;
   color: #fff;
   font-size: 12px;
-  background: linear-gradient(to right, #000080, #1084d0);
+  background: #000080;
   font-weight: bold;
   line-height: 16px;
   display: flex;
@@ -29,6 +48,16 @@ body {
 #text {
   font-size: 12px;
   margin-top: 1em;
+}
+
+#time {
+  border-top: 1px solid #08080E;
+  border-left: 1px solid #08080E;
+  border-right: 1px solid #FCFCFC;
+  border-bottom: 1px solid #FCFCFC;
+  padding: 3px 12px;
+  font-size: 15px;
+  height: 26px;
 }
 
 .container {
@@ -70,11 +99,56 @@ body {
   padding: 4px;
 }
 
-.btn:hover {
+.btn:hover, .btn-navbar:hover {
   cursor: pointer;
 }
 
 .btn:active {
   border-color: black;
   cursor: pointer;
+}
+
+.btn-navbar {
+  align-items: center;
+  border: 2px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.btn-navbar:active {
+  cursor: pointer;
+  border-color: none;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 28px;
+  display: block;
+  background: #C0C0C0;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-bottom: 2px solid #FCFCFC;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+span > a {
+  color: #000181;
+  text-decoration: none;
 }
