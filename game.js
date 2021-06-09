@@ -59,7 +59,7 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'Today is a great day! It is the start of your journey to the Castel of wonders! As a young knight developer, you will need courage, determination, and support to obtain your first role as a knight, in the Castel of wonders. But first, you need to prepare before your adventure.',
+    text: 'Today is a great day! It is the start of your journey to the Castle of wonders! As a young knight developer, you will need courage, determination, and support to obtain your first role as a knight, in the Castle of wonders. But first, you need to prepare before your adventure.',
     options: [
       {
         text: 'Go to a Tech Event',
